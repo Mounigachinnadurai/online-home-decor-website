@@ -1,0 +1,165 @@
+{
+  "signupUsers": [
+    {
+      "fullname": "mouni",
+      "email": "mouni@gmail.com",
+      "password": "mouni",
+      "confirmpassword": "mouni",
+      "id": 1
+    },
+    {
+      "fullname": "mouni",
+      "email": "mouniga@gmail.com",
+      "password": "mouni",
+      "confirmpassword": "mouni",
+      "id": 2
+    },
+    {
+      "fullname": "mouni",
+      "email": "mouniga@gmail.com",
+      "password": "mouni",
+      "confirmpassword": "mouni",
+      "id": 3
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": "",
+      "confirmpassword": "",
+      "id": 4
+    },
+    {
+      "fullname": "mouni",
+      "email": "",
+      "password": "",
+      "confirmpassword": "",
+      "id": 5
+    },
+    {
+      "fullname": "mouni",
+      "email": "",
+      "password": "",
+      "confirmpassword": "",
+      "id": 6
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": "",
+      "confirmpassword": "",
+      "id": 7
+    },
+    {
+      "fullname": "mouni",
+      "email": "2k19cse058@kiot.ac.in",
+      "password": "mouni",
+      "confirmpassword": "mouni",
+      "id": 8
+    }
+  ],
+  "details": [
+    {
+      "id": 1,
+      "image": "/assets/Images/wall shelves.png",
+      "description": "Wall Shelves",
+      "title": "hexagonal box",
+      "price": "Starting at Rs.200/-",
+      "moreitem": "/productPage"
+    },
+    {
+      "id": 2,
+      "image": "/assets/Images/glass ware/—Pngtree—glass container glass cup_4452307.png",
+      "description": "Cup",
+      "title": "Glass Container",
+      "price": "Starting at Rs:200/-"
+    },
+    {
+      "id": 3,
+      "image": "/assets/Images/frame10.png",
+      "description": "Mirror",
+      "title": "round gold mirror frame",
+      "price": "Starting at Rs:100/-"
+    },
+    {
+      "id": 4,
+      "image": "/assets/Images/clock.png.png",
+      "description": "Clocks",
+      "title": "Attractive alarm clocks",
+      "price": "Starting at Rs:300/-"
+    },
+    {
+      "id": 5,
+      "image": "/assets/Images/light6.png",
+      "description": "Light",
+      "title": "Elegant Yellow light",
+      "price": "Starting at Rs:400/-"
+    },
+    {
+      "id": 6,
+      "image": "/assets/Images/sculptures.png.png",
+      "description": "Sculptures",
+      "title": "Classical sculpture Statue",
+      "price": "Starting at Rs:99/-"
+    }
+  ],
+  "wallShelves": [
+    {
+      "id": 1,
+      "image": "/assets/Images/wall shelves/wall shelves - 3 wall shelf for home decor.webp",
+      "description": "Wall Shelves wall shelf for home decor",
+      "title": "hexagonal box",
+      "price": "400"
+    },
+    {
+      "id": 2,
+      "image": "/assets/Images/wall shelves/wall shelves -1 data_wall-shelves_bee-hive-wall-shelves_updated_1-750x650.jpg",
+      "description": "wall-shelves bee-hive wall shelves",
+      "title": "hexagonal box",
+      "price": "200"
+    },
+    {
+      "id": 3,
+      "image": "/assets/Images/Hexagon wall shelves,set of 2 - Matte black.jpg",
+      "description": "hexagon wall shelves-set of 2-matte black",
+      "title": "hexagonal box",
+      "price": "150"
+    },
+    {
+      "id": 4,
+      "image": "/assets/Images/wall shelves/wall shelves -4 living hexogon wall shelves.webp",
+      "description": "Wall Shelves for living hexogon wall shelves",
+      "title": "hexagonal box",
+      "price": "350"
+    }
+  ],
+  "cup": [
+    {
+      "id": 1,
+      "image": "an/assets/Images/cup/glass ware/cup-1.webp",
+      "description": "{{item.quantity*item.price}}",
+      "title": "Elegent cup",
+      "price": "400"
+    },
+    {
+      "id": 2,
+      "image": "/assets/Images/wall shelves/wall shelves -1 data_wall-shelves_bee-hive-wall-shelves_updated_1-750x650.jpg",
+      "description": "wall-shelves bee-hive wall shelves",
+      "title": "hexagonal box",
+      "price": "200"
+    },
+    {
+      "id": 3,
+      "image": "/assets/Images/Hexagon wall shelves,set of 2 - Matte black.jpg",
+      "description": "hexagon wall shelves-set of 2-matte black",
+      "title": "hexagonal box",
+      "price": "150"
+    },
+    {
+      "id": 4,
+      "image": "/assets/Images/wall shelves/wall shelves -4 living hexogon wall shelves.webp",
+      "description": "Wall Shelves for living hexogon wall shelves",
+      "title": "hexagonal box",
+      "price": "350"
+    }
+  ]
+}

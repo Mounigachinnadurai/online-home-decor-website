@@ -1,0 +1,37 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="text-center">
+          <h1>Signup</h1>
+        </div>
+          <form [formGroup]="signUpForm" (ngSubmit)="signUp()">
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Full Name</label>
+              <input formControlName="fullname" type="text" class="form-control" id="exampleInputPassword1" >
+            </div>
+            <small class="input" *ngIf="signUpForm.controls['email'].dirty && signUpForm.hasError('required','fullname')" class="text-danger">* Fullname is required</small>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Email address</label>
+              <input formControlName="email" type="email" class="form-control" id="exampleInputPassword1">
+            </div>
+            <small  class="input" *ngIf="signUpForm.controls['email'].dirty && signUpForm.hasError('required','email')" class="text-danger">* Email is required</small>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Password</label>
+              <input formControlName="password" [type]="type" class="form-control" id="exampleInputEmail1">
+            </div>
+            <small  class="input" *ngIf="signUpForm.controls['email'].dirty && signUpForm.hasError('required','password')" class="text-danger">* Password is required</small>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+              <input formControlName="confirmpassword" [type]="type" class="form-control" id="exampleInputPassword1">
+              <span class="eye-2" (click)="hideShowPass()"><i class="fa {{eyeIcon}}"></i></span>
+            </div>
+            <small class="input" *ngIf="signUpForm.controls['email'].dirty && signUpForm.hasError('required','confirmpassword')" class="text-danger">* Confirm Password is required</small><br><br>
+            <button type="submit" class="btn btn-primary">Register</button>  
+          </form>
+          <a style="color: black; margin-top: 10px; text-decoration: none;"  routerLink="/login">Already registered? click to Login!</a>
+      </div>
+    </div>
+  </div>
+</div>

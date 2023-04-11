@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Home decor Website </title>
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="logo">
+      <a routerLink="dashboard"><i class='fa fa-spa'></i>
+      <span> SmartChoice</span></a>
+    </div>
+
+    <nav class="navbar">
+        <a routerLink="/dashboard">Home</a>
+        <a style="cursor:pointer;"(click)="todecor()">Decor</a>
+        <a routerLink="feature">Features</a>
+        <a routerLink="/contactus">Contact us</a>
+        <a routerLink="review">Reviews</a>
+    </nav>
+    <div class="login">
+      <button routerLink="/addtocart" class="shopping-bag">
+        <i style="font-size:20px;" class="fa fa-shopping-bag"></i>
+        <div style="font-size:13px; padding:5px;" class="badge bg-danger">{{totalItem}}</div>
+      </button>
+      <a routerLink="login"><i class="fa fa-user"></i></a>
+    </div>
+  </header>
+
+ 

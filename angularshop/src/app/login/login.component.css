@@ -1,0 +1,26 @@
+.card{
+    margin-top: 10px;
+    border: none;
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    padding: 40px;
+    width: 500px;
+    transform: translate(-50%, -50%);
+    background: rgb(242, 152, 182);
+    background:linear-gradient(90deg,rgb(242, 152, 182) 0%,rgb(245, 150, 170)100%);
+    
+}
+.card label h1,h6{
+color:#fff;
+}
+label{
+    color:#fff;
+}
+.mb-3 span{
+    left:80%;
+    top:57%;
+    color:#000;
+    position: absolute;
+
+}
